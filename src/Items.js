@@ -85,9 +85,10 @@ function Items() {
     var handleCase = (str) => str[0].toUpperCase()
      + str.slice(1).toLowerCase();
 
-     var handleSortCase = (arr)=>arr.map(handleCase).sort()
-
-     console.log(handleSortCase(homeFurnishing))
+     var handleSortCase = (arr)=>arr.map(handleCase).sort
+     
+     {/*testing*/}
+     console.log(handleSortCase(homeFurnishing)) 
 
  
 
